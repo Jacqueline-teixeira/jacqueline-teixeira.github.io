@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Post — Jacqueline Teixeira</title>
+<link rel="stylesheet" href="css/style.css" />
+<script src="https://cdn.jsdelivr.net/npm/marked@18.1.1/lib/marked.umd.min.js"
+        integrity="sha384-8h2CqrXEXLa4h/UXR6poyw9gm0nqxCLDImeEwri2Cxenpl9G6fyaZY8kc39nH/5Y"
+        crossorigin="anonymous" defer></script>
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav">
+    <a class="brand" href="index.html">Jacqueline Teixeira</a>
+    <div class="links">
+      <a href="index.html">Início</a>
+      <a href="blog.html" class="active">Blog</a>
+    </div>
+  </nav>
+</header>
+
+<main>
+  <a class="back-link" href="blog.html">&larr; Voltar para o blog</a>
+  <article class="post-full" id="post-content">
+    <p class="state-message">Carregando post...</p>
+  </article>
+</main>
+
+<footer class="site-footer">
+  <p>&copy; <span id="year"></span> Jacqueline Teixeira. Feito com HTML, CSS e JS puro.</p>
+</footer>
+
+<script src="js/post.js" defer></script>
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Blog — Jacqueline Teixeira</title>
+<meta name="description" content="Espaço livre para escrever sobre diversos temas." />
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav">
+    <a class="brand" href="index.html">Jacqueline Teixeira</a>
+    <div class="links">
+      <a href="index.html">Início</a>
+      <a href="blog.html" class="active">Blog</a>
+    </div>
+  </nav>
+</header>
+
+<main>
+  <section>
+    <h1>Blog</h1>
+    <p class="tagline">Um espaço livre para escrever sobre o que quiser.</p>
+  </section>
+
+  <section>
+    <div class="post-list" id="post-list">
+      <p class="state-message">Carregando posts...</p>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <p>&copy; <span id="year"></span> Jacqueline Teixeira. Feito com HTML, CSS e JS puro.</p>
+</footer>
+
+<script src="js/blog.js"></script>
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>

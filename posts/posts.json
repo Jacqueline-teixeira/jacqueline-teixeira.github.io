@@ -1,0 +1,16 @@
+[
+  {
+    "slug": "bem-vindos-ao-blog",
+    "title": "Bem-vindos ao meu blog",
+    "date": "2026-10-15",
+    "excerpt": "Um primeiro post explicando o propósito deste espaço.",
+    "tags": ["geral"]
+  },
+  {
+    "slug": "sobre-escrever-livremente",
+    "title": "Sobre escrever livremente",
+    "date": "2026-10-15",
+    "excerpt": "Por que decidi ter um espaço sem tema fixo para escrever.",
+    "tags": ["reflexão"]
+  }
+]
